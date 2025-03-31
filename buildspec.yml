@@ -24,5 +24,6 @@ phases:
 artifacts:
   files:
     - "**/*.py"
-    - requirements.txt
+    - "requirements.txt"
+    - "templates/**/*"
   discard-paths: no
