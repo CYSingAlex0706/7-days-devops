@@ -15,6 +15,7 @@ phases:
   build:
     commands:
       - echo Build started on `date`
+      - mkdir -p tests
       - python -m unittest discover tests
   post_build:
     commands:
